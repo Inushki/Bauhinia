@@ -1,0 +1,38 @@
+/* Custom styles for the login page */
+body {background-image: url("Getty.jpg");
+    background-color: #f8f9fc; /* Light gray background color */
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    width: 100%; /* Set the card width to 100% */
+    max-width: 500px; /* Set a maximum width for the card (adjust the value as needed) */
+    padding: 20px; /* Add some padding to the card */
+}
+
+.form-control-user {
+    border-radius: 5px; /* Rounded corners for the form fields */
+}
+
+.btn-user {
+    border-radius: 5px; /* Rounded corners for the login button */
+    background-color: #4e73df; /* Blue login button background color */
+    border-color: #4e73df; /* Blue login button border color */
+    color: #fff; /* Text color for the login button */
+    transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.btn-user:hover {
+    background-color: #375ac2; /* Darker blue on hover */
+    border-color: #375ac2; /* Darker border on hover */
+}
